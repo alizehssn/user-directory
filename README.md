@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# React User Directory Application
+***
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Description
+***
+The User Directory utilizes React.js to create an application that calls an API and then uses the application's
+state to search,sort, and filter the data from the API.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Table of Contents
+***
+* Title
+* Description
+* Installation
+* Usage
+* Tests
+* Technologies Used
+* Author
+* License
 
-### `npm start`
+## Installation
+***
+Users may clone this [Github repository](https://github.com/alizehssn/user-directory/tree/gh-pages) into their local drive and run start in their terminal command line,
+ or use the [User Directory application](alizehssn.github.io/user-directory/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+ ## Usage
+ ***
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+ ![User-Directory Image](/user-directory.png)
+ This application takes users to a table which randomly pulls 20 entries from the API. The user can search by last name in the search text box, or can sort the names in ascending or descending order by last name. 
+ 
 
-### `npm test`
+ ## Tests
+ ***
+ The application was tested with various console.logs to track errors throughout the application's code.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ ## Technologies Used
+ ***
 
-### `npm run build`
+ * HTML         
+ * CSS
+ * Bootstrap 4
+ * Javascript
+ * Node.JS
+ * Express.JS
+ * React.JS
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ ## Author
+ ***
+This application was created by Alize Hassan. 
+Contact: 
+[alizehssn@gmail.com](alizehassan@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/alize-hassan/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## License
+MIT License
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Copyright (c) 2020 Alize Hassan
 
-### `npm run eject`
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
