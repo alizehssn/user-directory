@@ -21,6 +21,7 @@ class App extends Component {
             });
     }
     handleChange = (e) => {
+        console.log(e.target.value);
         this.setState({ searchField: e.target.value});
     };
     lastNameAsc = () => {
@@ -29,6 +30,13 @@ class App extends Component {
         );
         this.setState({ users: users });
     };
+    lastNameDesc = () => {
+        const users = this.state.users.sort((a, b) =>
+            b.name.last.localeCompare(a.name.last)
+        );
+        this.setState({ users: users });
+    };
+    
 
     render() {
         const { users, searchField } = this.state;
@@ -37,9 +45,9 @@ class App extends Component {
         return ( 
         <div className = "App">
             <h1> User Directory </h1> 
-            <SearchBox placeholder ="search by last name"/>
-            <SearchAndSort lastNameAsc={this.lastNameAsc}/>
-            <UserTable user = { users }></UserTable>  
+            <SearchBox handleChange={ this.handleChange} placeholder ="search by last name"/>
+            <SearchAndSort lastNameAsc={this.lastNameAsc} lastNameDesc={this.lastNameDesc}/>
+            <UserTable user = { filteredUsers }></UserTable>  
         </div>
         );
     }
